@@ -1,0 +1,61 @@
+@media only media and (max-width: 800px) {
+    body {
+        font-size: 1rem;
+    }
+   .banner-text h1 {
+    font-size: 0.9rem;
+    text-align: center;
+   } 
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .nav-holder {
+        justify-content: center;
+    }
+
+    .nav-logo {
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        -webkit-text-stroke: 0.2px white;
+        /* color: transparent; */
+        animation: text 2s linear infinite;
+    } 
+
+    @keyframes text {
+        from {
+            color: white;
+        }
+        to {
+            color: transparent;
+        }
+    }
+
+    .grid-section {
+        grid-template-columns: minmax(200px, 1fr);
+    }
+
+    .grid-section .section-heading {
+        justify-self: center;
+        align-self: center;
+    }
+
+    section {
+        padding: 3rem 2rem;
+    }
+}
+
+
+
+
+
+
